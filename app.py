@@ -24,7 +24,7 @@ app = FastAPI(title="Store Application",
     version="1.0.0",)
 
 
-SQLALCHEMY_DATABASE_URL = "sqlite:///./data/app.db"
+SQLALCHEMY_DATABASE_URL = "sqlite:///./app.db"
 
 
 engine = create_engine(
